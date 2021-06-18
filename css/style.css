@@ -15,8 +15,15 @@ body {
     width: 100%;
 }
 
+.w-90{
+    width: 100%;
+}
 .w-60{
     width: 60%;
+}
+
+.w-30{
+    width: 30%;
 }
 
 .w-70{
@@ -51,6 +58,7 @@ body {
     vertical-align: middle;
 }
 
+
 .clearfix::after {
     content: "";
     display: table;
@@ -65,7 +73,18 @@ body {
 .container-sec{
 
     min-height: 600px;
+    margin: 0 auto;
+}
+
+.padd-300{
     padding-top: 300px;
+}
+
+
+.container-sec-due{
+
+    min-height: 600px;
+    padding-top: 50px;
     margin: 0 auto;
 }
 
@@ -73,9 +92,20 @@ body {
     display: inline-block;
     width: calc((100% / 3) - 100px);
     min-height: 1000px;
+    /* padding-right: 10px; */
     border: solid 2px rgba(0, 0, 0, 0.5);
     z-index: 99999;
 }
+
+.row-float{
+    display: inline-block;
+    width: 100%;
+    min-height: 300px;
+    margin-top: 50px;
+    border: solid 2px rgba(0, 0, 0, 0.5);
+    z-index: 99999;
+}
+
 
 .tit-col{
     font-size: 200%;
@@ -101,9 +131,15 @@ body {
     margin-left: 40px;
 }
 
+
+
 .font-little{
     
     font-size: 80%;
+}
+
+.font-small{
+    font-size: 60%;
 }
 
 .in-bl{
@@ -112,7 +148,8 @@ body {
 
 }
 
-.link-blue{
+.link-blue,
+.blue{
     text-decoration: none;
     color: blue;
 }
@@ -124,6 +161,21 @@ body {
 .border-bot{
     padding-bottom: 40px;
     border-bottom: 2px solid gray;
+}
+
+.big-top-push {
+    margin-top: 70px;
+    font-size: 100%;
+}
+
+.font-weight{
+    font-weight: 600;
+}
+
+.row-float>i{
+    
+    padding: 10px 0;
+   
 }
 /* /common */
 
@@ -317,13 +369,15 @@ i{
 
 
 /* debug */
-
-.debug .container-sec{
+/* 
+.debug .container-sec,
+.debug .container-sec-due{
     background-color: red;
 }
 
 
-.debug .col-float{
+.debug .col-float ,
+.debug .row-float {
     background-color: yellow;
-}
+} */
 /* /debug */
