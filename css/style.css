@@ -11,13 +11,104 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.max-w{
+    width: 100%;
+}
 
+.w-30{
+    width: 30%;
+}
+
+.sinistra{
+    float: left;
+}
+
+.destra{
+    float: right;
+}
+
+.centro{
+    float: middle;
+}
+
+.colonna{
+    position: relative;
+
+}
+
+.line{
+    line-height: 50px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: ;
+}
 /* /common */
 
 
 /* header */
 
+.btn{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+}
 
+header{
+    position: fixed;
+    height: 80px;
+    width: 100vw;
+    background-color: white;
+
+}
+
+.container {
+    position: absolute;
+    min-width: 100%;
+    line-height: 50px;
+}
+
+.lista {
+    
+    list-style: none;
+    text-decoration: none;
+
+
+}
+
+.inline>li{
+
+    display: inline;
+    
+}
+
+li>a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+
+
+}
+
+
+
+.spacing{
+    padding: 8px 20px;
+}
+
+.appoggia{
+
+        right: 0;
+}
+
+.center{
+
+    text-align: center;
+    vertical-align: middle;
+
+}
 /* /header */
 
 
@@ -25,3 +116,13 @@ body {
 
 
 /* /main */
+
+
+
+/* debug */
+
+.debug{
+    background-color: red;
+}
+
+/* /debug */
