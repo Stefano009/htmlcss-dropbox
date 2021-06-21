@@ -22,6 +22,10 @@ body {
     width: 60%;
 }
 
+.w-50{
+    width: 50%;
+}
+
 .w-30{
     width: 30%;
 }
@@ -306,7 +310,7 @@ i{
 
 /* sezioni */
 
-.titolo{
+.title{
     font-size: 170%;
     font-weight: 900;
     padding-left: 15%;
@@ -379,6 +383,26 @@ height: auto;
 
 }
 
+.photo-size-half{
+    width: 50%;
+    height: 50%;
+    margin: 25%;
+}
+
+.photo-size-quarter{
+    width: 25%;
+    height: 25%;
+    margin: 50px 25px;
+}
+
+.padding-hr{
+    width: 60px;
+    color: grey;
+    border: 1px solid grey;
+    margin-left: 50px;
+    filter: opacity(50%);
+}
+
 .column-half{
     display: inline-block;
     width: 45%;
@@ -387,7 +411,7 @@ height: auto;
 }
 
 .column-half-align{
-    padding: 40px;
+    padding: 60px 60px 200px 40px; 
 }
 
 .btn-photo {
@@ -404,7 +428,7 @@ height: auto;
 
 .font-resized{
     font-size: 40px;
-    font-weight: 900;
+    /* font-weight: ; */
     line-height: 90px;
     padding-bottom: 50px;
 }
@@ -425,16 +449,119 @@ height: auto;
     font-weight: 400;
     padding: 10px 20px;
 }
+
+.fixed-column{
+    width: 30vw;
+    height: 30vh;
+}
+
+.middle-column{
+    width: 39.1vw;
+    height: 30vh;
+}
+
+.squares{
+    width: 50%;
+    height: 100%;
+    /* text-align: center; */
+}
+
+#border-solid{
+    border: 4px solid #d0e9cd;
+}
+
+.p-size{
+    padding: 30px 50px;
+    font-weight: 600;
+    font-size: 130%;
+    text-align: left;
+}
+/* classi colori clienti */
+
+.green{
+    background-color: #a2d39b;
+    
+}
+
+.inverse{
+    filter: invert(100%); 
+    -webkit-filter: invert(100%);
+}
+
+.bordeaux{
+    background-color: #61082b;
+}
+
+.bright-red{
+    background-color: #ff1c1c;
+}
+
+.light-blue{
+    background-color: #0093ce;
+}
+
+.red{
+    background-color: #d5001f;
+}
+
+.cyan{
+    background-color: #b4d0e7;
+}
+
+.dark-blue{
+    background-color: #0d2481;
+}
+
+.yellow{
+    background-color: #ffd830;
+}
+/* /classi colori clienti */
+
+.lower-margin{
+    margin-bottom: 10%;
+}
+
+.cyan-box{
+    background-color: #b4d0e7;
+    max-height: 50vh;
+    width: 100%;
+    margin-top: 30vh;
+}
+
+.big-text{
+    font-size: 40px;
+    font-style: italic;
+    color: #61082b;
+    padding: 30% 15% 10% 30%;
+}
+
+.btn-prova-gratuita{
+    display: inline-block;
+    background-color: white;
+    padding: 5px 30px;
+}
+
+.padding-footer{
+    
+    padding: 15% 13%;
+    
+}
+/* .middle-column{
+    width: ;
+} */
 /* /sezioni */
 
 
 /* debug */
-
-/* .debug .container-sec,
+/* 
+.debug .container-sec,
 .debug .container-sec-due{
     background-color: red;
 } */
-
+/* 
+.debug .fixed-column{
+    background-color: cyan;
+} */
 /* .debug .column-half{
     background-color: blue;
     min-height: 500px;
@@ -448,5 +575,6 @@ height: auto;
 /* .debug .column-operation{
     background-color: chocolate;
 } */
+
 
 /* /debug */
