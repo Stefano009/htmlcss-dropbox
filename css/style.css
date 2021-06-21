@@ -30,16 +30,16 @@ body {
     width: 70%;
 }
 
-.sinistra{
+.float-left{
     float: left;
 }
 
-.destra{
+.float-right{
     float: right;
 }
 
-.centro{
-    float: middle;
+.float-middle{
+    float:middle;
 }
 
 .colonna{
@@ -65,7 +65,7 @@ body {
     clear: both;
 }
 
-.margine{
+.margin-space{
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -76,7 +76,7 @@ body {
     margin: 0 auto;
 }
 
-.padd-300{
+.padding-top-300{
     padding-top: 300px;
 }
 
@@ -91,7 +91,7 @@ body {
 .col-float{
     display: inline-block;
     width: calc((100% / 3) - 100px);
-    min-height: 1000px;
+    min-height: 1200px;
     /* padding-right: 10px; */
     border: solid 2px rgba(0, 0, 0, 0.5);
     z-index: 99999;
@@ -116,10 +116,6 @@ body {
     color: gray;
 }
 
-.omino{
-    font-size: 100%;
-    padding: 0;
-}
 
 .inter-col-space{
     padding-top: 50px;
@@ -133,7 +129,8 @@ body {
 
 
 
-.font-little{
+.font-little,
+.font-little i .little-guy{
     
     font-size: 80%;
 }
@@ -161,6 +158,7 @@ body {
 .border-bot{
     padding-bottom: 40px;
     border-bottom: 2px solid gray;
+
 }
 
 .big-top-push {
@@ -244,6 +242,13 @@ li>a{
     vertical-align: middle;
 
 }
+
+.max-w .background h1{
+    font-size: 95px;
+    line-height: 90px;
+
+}
+
 /* /header */
 
 
@@ -258,7 +263,7 @@ li>a{
     height:100%;
     position: absolute;
     left: 40%;
-    bottom: 30%;
+    bottom: 45%;
     
     
 }
@@ -294,8 +299,8 @@ li>a{
 }
 
 i{
-    font-size: 280%;
-    padding: 50px 20px 0 0;
+    font-size: 100%;
+    padding: 20px 5px;
 }
 /* /main */
 
@@ -342,8 +347,9 @@ i{
 
 .container-sec .col-float>h2,
 .container-sec .col-float>h3{
-    display: inline-block;
-    text-align: center;
+    /* display: inline-block; */
+    text-align: left;
+    padding-left: 10%;
     
 }
 
@@ -365,17 +371,51 @@ i{
 .margin-col-right{
     margin-right: 75px;
 }
+
+.photo-size{
+    
+width: 100%;
+height: auto;
+
+}
+
+.column-half{
+    display: inline-block;
+    width: 45%;
+    z-index: 99999;
+
+}
+
+.column-half-align{
+    padding: 40px;
+}
+
+.btn-photo {
+    display: inline-block;
+    border: 1px black solid;
+    padding: 5px;
+}
+
+.margin-btn{
+  
+    margin: 30px 10px;
+
+}
 /* /sezioni */
 
 
 /* debug */
-/* 
-.debug .container-sec,
+
+/* .debug .container-sec,
 .debug .container-sec-due{
     background-color: red;
-}
+} */
 
-
+/* .debug .column-half{
+    background-color: blue;
+    min-height: 500px;
+} */
+/* 
 .debug .col-float ,
 .debug .row-float {
     background-color: yellow;
