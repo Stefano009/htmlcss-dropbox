@@ -401,6 +401,30 @@ height: auto;
     margin: 30px 10px;
 
 }
+
+.font-resized{
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 90px;
+    padding-bottom: 50px;
+}
+
+.column-operation{
+
+        display: inline-block;
+        width: calc((100% / 3) - 3px);
+        min-height: 100px;
+        z-index: 99999;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.text-operation-style{
+    font-weight: 400;
+    padding: 10px 20px;
+}
 /* /sezioni */
 
 
@@ -420,4 +444,9 @@ height: auto;
 .debug .row-float {
     background-color: yellow;
 } */
+
+/* .debug .column-operation{
+    background-color: chocolate;
+} */
+
 /* /debug */
