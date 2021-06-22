@@ -6,6 +6,11 @@
 
 /* common */
 
+html{
+    scroll-behavior: smooth;
+}
+
+
 body {
 
     font-family: 'Open Sans', sans-serif;
@@ -153,6 +158,11 @@ body {
 .blue{
     text-decoration: none;
     color: blue;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
 }
 
 .bot-push{
