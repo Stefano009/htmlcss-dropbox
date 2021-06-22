@@ -267,7 +267,7 @@ li>a{
     height:100%;
     position: absolute;
     left: 40%;
-    bottom: 45%;
+    bottom: 40%;
     
     
 }
@@ -546,6 +546,44 @@ height: auto;
     padding: 15% 13%;
     
 }
+
+/* sezione faq */
+
+.w-left{
+    width: 80%;
+    text-align: left;
+
+}
+
+.w-right{
+    width: 20%;
+    text-align: right;
+}
+
+.margin-top-faq{
+    margin-top: 600px;
+}
+
+.container-sec-due>ul{
+    list-style: none;
+}
+
+.line-style-faq{
+    line-height: 80px;
+    border-top: solid 2px rgba(0, 0, 0, 0.1);
+    font-weight: 700;
+}
+
+
+.container-sec-due h2{
+    border-top: none;
+    padding: 0;
+}
+
+/* /sezione faq */
+
+
+
 /* .middle-column{
     width: ;
 } */
@@ -575,6 +613,7 @@ height: auto;
 /* .debug .column-operation{
     background-color: chocolate;
 } */
+
 
 
 /* /debug */
