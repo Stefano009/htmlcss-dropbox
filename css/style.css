@@ -179,6 +179,7 @@ body {
     padding: 10px 0;
    
 }
+
 /* /common */
 
 
@@ -597,6 +598,7 @@ footer .container-sec{
 
     width: calc(100% / 5) - 250px;
     margin: 0 50px 0 0;
+    min-height: 500px;
 }
 
 footer>div>ul{
@@ -606,7 +608,7 @@ footer>div>ul{
 }
 
 footer>div>ul:first-child{
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
 }
 
 footer>div>ul>li{
@@ -619,6 +621,12 @@ footer>div>ul>li:first-child{
 
 footer>div>ul:last-child{
     margin-left: 50px ;
+}
+
+.language-style{
+    color: rgba(255, 255, 255, 0.5);
+    padding-top: 50px;
+    font-size: 70%;
 }
 
 /* /footer  */
