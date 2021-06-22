@@ -616,6 +616,23 @@ height: auto;
     padding: 0;
 }
 
+/* hover */
+
+.container-hover-faq{ 
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+ul>li>i:hover + div{
+    
+    display: block;
+
+}
+
+
+
+/* /hover */
 /* /sezione faq */
 
 /* footer  */
