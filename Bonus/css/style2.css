@@ -201,6 +201,13 @@ body {
     color: white;
     padding: 5px;
 }
+.btn-dinamico{
+    display: block;
+    background-color: blue;
+    width: 130px;
+    color: white;
+    padding: 5px;
+}
 
 header{
     position: fixed;
@@ -630,7 +637,17 @@ ul>li>i:hover + div{
 
 }
 
+.btn-dinamico:hover + .container-hover-dinamico{
+    display: block;
+}
 
+.btn-dinamico:hover{
+    display: none;
+}
+
+.container-hover-dinamico{
+    display: none;
+}
 
 /* /hover */
 /* /sezione faq */
