@@ -582,7 +582,46 @@ height: auto;
 
 /* /sezione faq */
 
+/* footer  */
 
+.black-background{
+    background-color: black;
+    color: white;
+}
+
+footer .container-sec{
+    padding: 80px 100px 20px 200px;
+}
+
+.footer-column{
+
+    width: calc(100% / 5) - 250px;
+    margin: 0 50px 0 0;
+}
+
+footer>div>ul{
+    list-style: none;
+    padding-bottom: 150px;
+    /* background-color: brown; */
+}
+
+footer>div>ul:first-child{
+    border-bottom: 2px solid white;
+}
+
+footer>div>ul>li{
+    padding-bottom: 15px;
+}
+
+footer>div>ul>li:first-child{
+    padding-bottom: 35px;
+}
+
+footer>div>ul:last-child{
+    margin-left: 50px ;
+}
+
+/* /footer  */
 
 /* .middle-column{
     width: ;
