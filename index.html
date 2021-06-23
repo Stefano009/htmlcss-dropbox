@@ -18,10 +18,10 @@
 
         <!-- barra fissa Dropbox -->
         
-        <div class="container">
+        <div class="container clearfix">
 
            
-                <div class=" float-right spacing appoggia">
+                <div class="float-right spacing appoggia">
 
                     <ul class="lista inline center">
                         <li><a class="spacing" href="#">Supporto</a></li>
@@ -70,14 +70,14 @@
 
         <!-- jumbotron -->
         
-        <div class="background max-w ">
+        <div class="background max-w clearfix">
 
             
 
 
             <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
 
-            <div class="colonna-sec left">
+            <div class="colonna-sec float-left">
 
                     <span>Finalmente tutti i tuo strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per     ottimizzare il flusso di lavoro esistente</span> <br>
 
@@ -94,7 +94,9 @@
             </div>
 
             <div class="container-jumbo"> 
-                <div class="jumbo float-right clear-l"></div> 
+                <div class="jumbo">
+                    <!-- <img src="img/jumbo.png" alt="jumbotron"> -->
+                </div> 
              </div>
 
             
@@ -121,9 +123,9 @@
 
         </section>
 
-        <section class="container-sec w-70">
+        <section class="container-sec w-70 clearfix">
 
-            <div class="col-float float-left slim-line margin-col-left ">
+            <div class="col-float float-left slim-line">
 
                 <!-- prima colonna -->
                 
@@ -160,7 +162,7 @@
             </div>
             <!-- /prima colonna -->
             <!-- seconda colonna -->
-            <div class="col-float float-left slim-line margin-col-left ">
+            <div class="col-float float-left slim-line margin-col-middle">
                 
                 <i class="far fa-building"></i><h2 class="slim-line">Team</h2>
                 <hr>
@@ -195,7 +197,7 @@
             </div>
             <!-- /seconda colonna -->
             <!-- terza colonna -->
-            <div class="col-float float-left slim-line margin-col-left ">
+            <div class="col-float float-left slim-line">
                 
                 <i class="far fa-building"></i><h2 class="slim-line">Team</h2>
                 <hr>
@@ -264,18 +266,18 @@
 
         <!-- sezione contatti partner -->
 
-        <section class="padding-top-300 container-sec w-70 ">
+        <section class="container-sec w-70 ">
 
-            <div class="column-half clearfix">
+            <div class="column-half clearfix padding-top-100">
 
                 <img class="float-left photo-size" src="img/partner.png" alt="partner Dropbox">
             </div>
-            <div class="column-half clearfix">
-                <div class="float-left column-half-align">
+            <div class="column-half clearfix column-half-align font-130">
+                <div class="float-left ">
                     <h2 class="spacing">Entra in contatto con un partner Dropbox</h2>
                     <p class="spacing">Trova un parner Dropbox e Hellosign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obiettivi aziendali tra cui implementazione, integrazione, gestione e supporto</p>
 
-                    <div class="btn-photo margin-btn">
+                    <div class="btn-photo margin-btn ">
                         <p>Trova un partner</p>
                     </div>
                 </div>
@@ -349,87 +351,77 @@
 
         <!-- sezione clienti -->
 
-        <section class="container-sec w-100 padding-top-300">
+        <section class="container-sec padding-top-100 max-w max-h clearfix">
 
-            <div class="title lower-margin w-50">
+            <div class="title lower-margin w-50 clearfix">
                 <h2>Più di 500.000 team <br> utilizzano Dropbox Business</h2>
                 <p><a class="font-small"  href="#">Scopri di più sui nostri clienti</a></p>
             </div>
 
-            <div class="container-sec w-100">
+            <div class="column-side float-left clearfix">
 
-                <div class="fixed-column float-left ">
-                    <div id="border-solid" class="squares float-left green">
-                        <img  class="photo-size-half inverse" src="img/designit.svg" alt="designit">
-                    </div>
-                    <div class="squares float-left bordeaux">
-
-                            <img class="photo-size-half inverse" src="img/arizona_state_university.svg" alt="arizona-university">
-
-                        
-                    </div>
-                    <div class="fixed-column ">
-                        <div  class="squares float-left light-blue">
-                            <img  class="photo-size-half inverse" src="img/university_of_florida.svg" alt="university_of_florida">
-                        </div>
-                        <div class="squares float-left bright-red">
-    
-                                <img class="photo-size-half inverse" src="img/topps.svg" alt="topps">
-    
-                            
-                        </div>
-                    
-
-                        
-                    </div>                    
+                <div class="container-background float-left green border-solid">
+                    <img class="img-50 inverse" src="img/designit.svg" alt="designit">
 
                 </div>
-                <div class="middle-column float-left">
+
+                <div class="container-background bordeaux float-left">
+                    <img class="img-50  inverse" src="img/arizona_state_university.svg" alt="asu">
+                </div>
+                
+                <div class="container-background light-blue float-left">
+                    <img class="img-50 inverse" src="img/university_of_florida.svg" alt="UF">
+                </div>
+
+                <div class="container-background bright-red float-left">
+                    <img class="img-50 inverse" src="img/topps.svg" alt="toops">
+                </div>
+                
+            </div>
+
+            <div class="column-middle float-left">
                     <img class="photo-size-quarter " src="img/designit.svg" alt="designit-logo">
                     <hr class="padding-hr">
                     <p class="p-size">"I membri del nostro team lavorano constantemente in Paesi, fusi orari e uffici diversi. Ora molte soluzioni sono compatibili con queste esigenze, ma nessune è facile quanto Dropbox e Dropbox Paper.Ora molte soluzioni sono compatibili con queste esigenze, ma nessune è facile quanto Dropbox e Dropbox Paper".</p>
 
                     <p class="p-size">Morten Thomsen, Global IT Lead</p>
 
+            </div>
+
+            <div class="column-side float-left clearfix">
+
+                <div class="container-background float-left red">
+                    <img class="img-50 inverse" src="img/world_bicycle_relief.svg" alt="world_bicycle_relief">
+
                 </div>
 
-                <div class="fixed-column float-left ">
-                    <div id="border-solid" class="squares float-left red">
-                        <img  class="photo-size-half inverse" src="img/world_bicycle_relief.svg" alt="world_bicycle_relief">
-                    </div>
-                    <div class="squares float-left cyan">
-
-                            <img class="photo-size-half inverse" src="img/hearst_corp.svg" alt="hearst_corp">
-
-                        
-                    </div>
-                    <div class="fixed-column ">
-                        <div  class="squares float-left dark-blue">
-                            <img  class="photo-size-half inverse" src="img/lonely_planet.svg" alt="lonely_planet">
-                        </div>
-                        <div class="squares float-left yellow">
-    
-                                <img class="photo-size-half inverse" src="img/clear_channel.svg" alt="clear_channel">
-    
-                            
-                        </div>
-                    
-
-                        
-                    </div>    
-
-                    
-
-            </div>
-            <div class="cyan-box float-left">
-                <div class="column-half float-left">
-                    <h1 class="big-text">Porta Dropbox Business nella tua azienda</h1>
-                </div> 
-                <div class="column-half float-left padding-footer">
-                <span class="btn-prova-gratuita">Inizia la tua prova gratuita</span>
+                <div class="container-background cyan float-left">
+                    <img class="img-50  inverse" src="img/hearst_corp.svg" alt="hearst_corp">
                 </div>
+                
+                <div class="container-background dark-blue float-left">
+                    <img class="img-50 inverse" src="img/lonely_planet.svg" alt="lonely_planet">
+                </div>
+
+                <div class="container-background yellow float-left">
+                    <img class="img-50 inverse" src="img/clear_channel.svg" alt="clear_channel">
+                </div>
+                
             </div>
-            <br>
+
+            <div class="container-clienti max-w float-left clearfix">
+                <h2 class="float-left big-text column-clienti">Porta Dropbox Business nella tua azienda.</h2>
+
+                <div class="column-clienti float-left">
+                    <div class="btn-photo padding-btn font-130"><strong>Inizia la tua prova gratuita</strong> </div>
+                </div>
+
+            </div>
+
+           
+
+
+                
 
 
         </section>

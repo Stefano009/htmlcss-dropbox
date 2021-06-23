@@ -9,6 +9,7 @@
 body {
 
     font-family: 'Open Sans', sans-serif;
+    width: 100vw;
 }
 
 .max-w{
@@ -75,19 +76,22 @@ body {
 }
 
 .container-sec{
-
-    min-height: 600px;
+    
     margin: 0 auto;
 }
+
 
 .padding-top-300{
     padding-top: 300px;
 }
 
+.padding-top-100{
+    padding-top: 100px;
+}
+
 
 .container-sec-due{
 
-    min-height: 600px;
     padding-top: 50px;
     margin: 0 auto;
 }
@@ -202,7 +206,7 @@ header{
 }
 
 .container {
-    position: absolute;
+    /* position: absolute; */
     min-width: 100%;
     line-height: 50px;
 }
@@ -258,6 +262,14 @@ li>a{
 
 
 /* main */
+ 
+/* .jumbo{
+
+    object-fit: cover;
+    width: 50%;
+    height: 50%;
+
+} */
 
 .jumbo{
     background-image: url("../img/jumbo.png");
@@ -266,16 +278,12 @@ li>a{
     object-fit: scale-down;
     width: 100%;
     height:100%;
-    position: absolute;
-    left: 40%;
-    bottom: 40%;
-    
     
 }
 
 .background{
     background-color: #b4d0e7;
-    min-height: 500px;
+    position: relative;
     
 }
 
@@ -289,6 +297,8 @@ li>a{
     position: absolute;
     width: 100%;
     height: 100%;
+    left: 50%;
+
 }
 
 .clear-l{
@@ -296,7 +306,7 @@ li>a{
 }
 
 .colonna-sec{
-    display: inline-block;
+    /* display: inline-block; */
     width: 40%;
     padding: 100px;
     font-weight: 700;
@@ -369,8 +379,8 @@ i{
     color: black;
 }
 
-.margin-col-left{
-    margin-left: 75px;
+.margin-col-middle{
+    margin: 0 150px;
 }
 
 .margin-col-right{
@@ -406,19 +416,23 @@ height: auto;
 
 .column-half{
     display: inline-block;
+    object-fit: scale-down;
     width: 45%;
     z-index: 99999;
 
 }
 
 .column-half-align{
-    padding: 60px 60px 200px 40px; 
+    
+    padding: 100px 0 100px 100px;
+    text-align: left;
 }
 
 .btn-photo {
     display: inline-block;
     border: 1px black solid;
     padding: 5px;
+    background-color: white;
 }
 
 .margin-btn{
@@ -519,7 +533,7 @@ height: auto;
 /* /classi colori clienti */
 
 .lower-margin{
-    margin-bottom: 10%;
+    margin-bottom: 100px;
 }
 
 .cyan-box{
@@ -530,10 +544,9 @@ height: auto;
 }
 
 .big-text{
-    font-size: 40px;
+    font-size: 60px;
     font-style: italic;
     color: #61082b;
-    padding: 30% 15% 10% 30%;
 }
 
 .btn-prova-gratuita{
@@ -548,6 +561,9 @@ height: auto;
     
 }
 
+.font-130{
+    font-size: 130%;
+}
 /* sezione faq */
 
 .w-left{
@@ -664,3 +680,52 @@ footer>div>ul:last-child{
 
 
 /* /debug */
+
+
+/* colonne clienti */
+.max-h{
+    height: 40vh;
+}
+
+.column-side{
+    width: 30%;
+    
+}
+
+.column-middle{
+    width: 40%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.img-50{
+    width: 100%;
+    height: 100%;
+    padding: 60px;
+    object-fit: scale-down;
+}
+
+.container-background{
+    width: 15vw;
+    height: 20vh;
+}
+
+.border-solid{
+    border: 10px solid rgba(255, 255, 255, 0.5);
+}
+
+.container-clienti{
+    background-color: #b4d0e7;
+}
+
+.column-clienti{
+    width: 50%;
+    height: 40vh;
+    padding-top: 15vh;
+    text-align: center;
+}
+
+.padding-btn{
+    margin-top: 20px;
+    padding: 10px 30px;
+}
